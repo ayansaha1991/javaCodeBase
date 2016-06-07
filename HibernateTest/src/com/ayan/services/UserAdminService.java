@@ -2,5 +2,5 @@ package com.ayan.services;
 
 public interface UserAdminService {
 
-	public void createUser();
+	public long createUser();
 }

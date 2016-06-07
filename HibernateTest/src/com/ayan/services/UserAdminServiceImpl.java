@@ -3,9 +3,9 @@ package com.ayan.services;
 public class UserAdminServiceImpl implements UserAdminService {
 
 	@Override
-	public void createUser() {
+	public long createUser() {
 		System.out.println("Trying something");
-
+		return 0;
 	}
 
 }
