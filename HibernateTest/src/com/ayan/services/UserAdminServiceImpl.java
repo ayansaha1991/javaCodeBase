@@ -1,11 +1,15 @@
 package com.ayan.services;
 
-public class UserAdminServiceImpl implements UserAdminService {
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
 
-	@Override
+@Path("/user")
+public class UserAdminServiceImpl  {
+
+	@GET
+	@Path("/")
 	public long createUser() {
-		System.out.println("Trying something");
-		return 0;
+		return 100;
 	}
 
 }

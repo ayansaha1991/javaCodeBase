@@ -1,0 +1,9 @@
+package com.ayan.services;
+
+import javax.ws.rs.Path;
+
+@Path("/")
+public interface UserAdminService {
+
+	public long createUser();
+}

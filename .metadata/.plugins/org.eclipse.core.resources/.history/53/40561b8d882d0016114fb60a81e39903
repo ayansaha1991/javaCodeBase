@@ -1,0 +1,10 @@
+package com.ayan.services;
+
+public class UserAdminServiceImpl  {
+
+	public long createUser() {
+		System.out.println("Trying something");
+		return 0;
+	}
+
+}

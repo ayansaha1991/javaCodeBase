@@ -1,0 +1,15 @@
+package com.ayan.services;
+
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+
+@Path("/user")
+public class UserAdminServiceImpl  {
+
+	@POST
+	public long createUser() {
+		System.out.println("Trying something");
+		return 0;
+	}
+
+}
